@@ -1,0 +1,7 @@
+@unpublished{Shiri2003AUTRescue,
+	author = "Mohammad Ebrahim Shiri and Adrin Jalali and Mohammadreza Jooyandeh and Nazanin {Roshandel Tavana} and Mahsa Behzadi",
+	affiliation = "Amirkabir University of Technology",
+	title = "AUTRescue Team Strategy Description",
+	year = "2003",
+	note = "RoboCup 2003, Padua, Italy",
+}

@@ -1,0 +1,7 @@
+@masterthesis{Jooyandeh2014Thesis,
+	author = {Jooyandeh, Mohammadreza},
+	title = {Recursive Algorithms for Generation of Planar Graphs},
+	school = {College of Engineering and Computer Science, Australian National University},
+	year = {2014},
+	language = {English},
+}

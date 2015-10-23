@@ -1,0 +1,7 @@
+@masterthesis{Jooyandeh2009Thesis,
+	author = {Jooyandeh, Mohammadreza},
+	title = {Designing an Aspect-Oriented Persistence Layer Supporting Object-Oriented Querying},
+	school = {Department of Mathematics and Computer Science, Amirkabir University of Technology},
+	year = {2009},
+	language = {Persian},
+}

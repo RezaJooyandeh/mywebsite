@@ -1,0 +1,10 @@
+@article{Jooyandeh2009Incidence,
+	author = "Mohammadreza Jooyandeh and Dariush Kiani and Maryam Mirzakhah",
+	title = "Incidence Energy of a Graph",
+	journal = "MATCH Commun. Math. Comput. Chem.",
+	year = "2009",
+	volume = "62",
+	number = "3",
+	pages = "561-572",
+	issn="0340-6253",
+}

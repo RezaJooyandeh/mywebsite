@@ -1,0 +1,7 @@
+@report{Jooyandeh2006FinalProject,
+	author = {Jooyandeh, Mohammadreza and Jalali, Adrin},
+	title = {Scheduling of School Classes using Genetic Algorithms},
+	school = {Department of Mathematics and Computer Science, Amirkabir University of Technology},
+	year = {2006},
+	language = {Persian},
+}

@@ -1,0 +1,14 @@
+@article {Fowler2012FaceSpiral,
+   author = "Patrick Fowler and Mohammadreza Jooyandeh and Gunnar Brinkmann},
+   title = "Face-spiral codes in cubic polyhedral graphs with face sizes no larger than 6",
+   journal = "Journal of Mathematical Chemistry",
+   publisher = "Springer Netherlands",
+   issn = "0259-9791",
+   pages = "2272-2280",
+   volume = "50",
+   issue = "8",
+   url = "http://dx.doi.org/10.1007/s10910-012-0029-3",
+   note = "10.1007/s10910-012-0029-3",
+   doi = "10.1007/s10910-012-0029-3",
+   year = "2012"
+}

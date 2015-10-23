@@ -1,0 +1,7 @@
+﻿@article{Behsaz2005Team,
+	title={Team Description of SOS 2005},
+	author={Behsaz, Babak and Jalali, Adrin and Janzadeh, Hamed and Jooyandeh, Mohammadreza and Molazem, Farid and Rahimi, Arash and Salehi, Amirali and Tavakoli, Mohammad},
+	affiliation = {Amirkabir University of Technology},
+	year = {2005},
+	note = {RoboCup 2005, Osaka, Japan}
+}
