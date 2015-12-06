@@ -190,7 +190,7 @@
 					<p>
 						<a href="http://www.jooyandeh.com">M. Jooyandeh</a>, <a href="http://cs.anu.edu.au/~bdm">B.D. McKay</a>,
 					<a href="http://users.tkk.fi/u/pat">P.R.J. Östergård</a>, V. Pettersson, <a href="http://math.tricube.de">C.T. Zamfirescu</a>,
-					Planar Hypohamiltonian Graphs on 40 Vertices, <i>(submitted)</i>, <a href="http://arxiv.org/abs/1302.2698">Avaliable on arXiv.org</a>,
+					Planar Hypohamiltonian Graphs on 40 Vertices, <i>(to appear in the Journal of Graph Theory)</i>, <a href="http://arxiv.org/abs/1302.2698">Avaliable on arXiv.org</a>,
 					<a class="paper-download" href="http://arxiv.org/pdf/1302.2698v1">PDF</a>.
 					</p>
 					<p>
