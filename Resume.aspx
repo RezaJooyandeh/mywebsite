@@ -57,7 +57,7 @@
 						<b>Subject of Thesis:</b> Designing an Aspect-Oriented Persistence Layer Supporting Object-Oriented Querying
 					</p>
 					<p>
-						<b>B.Sc. in Mathematics</b> (2004-2007), GPA: 16.41 / 20
+						<b>B.Sc. in Mathematics</b> (2002-2007), GPA: 16.41 / 20
 						<br />
 						<a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran<br />
 					</p>

@@ -11,7 +11,7 @@ public partial class Site : System.Web.UI.MasterPage
 		{
 			googleSiteVerificationMeta.Content = "6M9JTp1F2QTbPqYFmcJnf06iUb8RSsA6QOc_wQ_8";
 
-			if (!Request.IsRobot() || (Page.Request.AppRelativeCurrentExecutionFilePath.ToLower() != "~/default.aspx"))
+			//if (!Request.IsRobot() || (Page.Request.AppRelativeCurrentExecutionFilePath.ToLower() != "~/default.aspx"))
 			{
 				var oldUri = Request.Url.AbsoluteUri.ToLower();
 				Response.RedirectPermanent(oldUri.Replace("jooyandeh.info", "jooyandeh.com"));
