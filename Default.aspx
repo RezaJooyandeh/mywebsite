@@ -195,7 +195,7 @@
 							My wife, <a href="http://www.rajabiyazdi.com">Fateme Rajabiyazdi</a> is a PhD candidate at University of Calgary. Her research is focused on patient-physician communication, personal information, and self-monitoring.
 						</li>
 						<li>
-							<a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a> was my PhD supervisor. He is one of the co-authors of nauty-traces, the fastest isomorphism and automorphism computation known algorithm. He is also working extensively of generation of several families of graphs and has some data sets of them on his website.
+							<a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a> was my PhD supervisor. He is one of the co-authors of nauty-traces, the fastest isomorphism testing and automorphism computation known algorithm. He is also working extensively of generation of several families of graphs and has some data sets of them on his website.
 						</li>
 						<li>
 							My very good friend <a href="http://caagt.ugent.be/jgoedgeb/">Jan Goedgebeur</a> who is a Postdoctoral Researcher at University of Ghent working on generation of combinatorial structures.
