@@ -48,7 +48,7 @@
 						I am a Computer Scientist by mind and a Mathematician by heart.
 						I did two Bachelor degrees in Computer Science and Mathematics, followed by a Master in Computer Science at Amirkabir University of Technology.
 						Then I did my PhD in Computational Graph Theory (Computer Science) at Australian National University.
-						As a PhD student I was working on isomprohism testing of planar graphs and <a href="/Combinatorics/GraphGeneration.aspx">isomorph-free exhuastive generation of graphs</a>
+						As a PhD student I was working on isomprohism testing of plane graphs and <a href="/Combinatorics/GraphGeneration.aspx">isomorph-free exhuastive generation of graphs</a>
 						under supervision of <a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a>.
 					</p>
 					<p>More about me:
