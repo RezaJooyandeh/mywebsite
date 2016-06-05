@@ -51,10 +51,12 @@
 						As a PhD student I was working on isomprohism testing of planar graphs and <a href="/Combinatorics/GraphGeneration.aspx">isomorph-free exhuastive generation of graphs</a>
 						under supervision of <a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a>.
 					</p>
-
-					<p>
-						My <span style="font-weight: bold;">passion</span> is to bridge research and high-tech to industry work. A lot of amazing studies and researches are being done every day that never get to people's hand. My objective is to improve people's quality of life by bringing high-tech research into the software industry. <br />
-						My other <span style="font-weight: bold;">passion</span> is to teach and mentor. <span style="font-style: italic;">An aha moment makes my day.</span>
+					<p>More about me:
+						<ul>
+							<li>My detailed <a href="Resume.aspx">Résumé</a>.</li>
+							<li>My <span style="font-weight: bold;">passion</span> is to bridge research and high-tech to industry work. A lot of amazing studies and researches are being done every day that never get to people's hand. My objective is to improve people's quality of life by bringing high-tech research into the software industry.</li>
+							<li>My other <span style="font-weight: bold;">passion</span> is to teach and mentor. <span style="font-style: italic;">An aha moment makes my day.</span></li>
+						</ul>
 					</p>
 				</div>
 			</div>
