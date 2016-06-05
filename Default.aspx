@@ -72,9 +72,10 @@
 
 						<div id="erdus-graph"></div>
 						<script>
-							var erdosGraph = {
-								vertices: [[30, 30], [130, 230], [130, 145], [230, 30], [130, 70], [230, 230], [430, 30], [330, 230]],
+							var erdusGraph = {
+								vertices: [[30, 150], [130, 230], [130, 105], [230, 150], [130, 30], [230, 230], [430, 150], [330, 230]],
 								edges: [[0, 1], [0, 2], [0, 3], [0, 4], [1, 5], [2, 3], [3, 4], [3, 6], [5, 7], [6, 7]],
+								edgeWeights: [1, 1, 3, 1, 1, 1, 1, 3, 1, 1],
 								labels: ["RJ", "DK", "SMH", "BM", "GB", "SA", "PE", "PC"],
 								hoverLabels: ["Reza Jooyandeh", "Dariush Kiani", "Seyed Mehdi Hashemi", "Brendan McKay", "Gunnar Brinkmann", "Saeed Akbari", "Paul Erdős", "Peter Cameron"],
 								images: [
@@ -88,7 +89,7 @@
 									"Images/Erdos/PeterCameron.jpg"
 								]
 							};
-							var erdosGraphSettings = {
+							var erdusGraphSettings = {
 								edge_width: 1.5,
 								vertex_stroke: 1,
 								vertex_radius: 29,
@@ -97,7 +98,7 @@
 								edgeFill: "#BECFE9"
 							};
 
-							DrawGraph("erdus-graph", erdosGraph, erdosGraphSettings, "460", "260");
+							DrawGraph("erdus-graph", erdusGraph, erdusGraphSettings, "460", "260");
 						</script>
 					</p>
 				</div>

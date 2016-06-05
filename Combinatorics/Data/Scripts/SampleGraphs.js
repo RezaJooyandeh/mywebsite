@@ -147,6 +147,12 @@ function DrawGraph(container, graph, settings, width, height) {
 	if (settings.textColor)
 		textColor = settings.textColor;
 
+	var edgeWeights;
+	if (graph.edgeWeights)
+		edgeWeights = graph.edgeWeights;
+	else
+		edgeWeights = edges.map(function (x) { return 1; });
+
 	var vertexFill = "#000000";
 	if (settings.vertexFill)
 		vertexFill = settings.vertexFill;
@@ -178,7 +184,8 @@ function DrawGraph(container, graph, settings, width, height) {
 	svg.push("\t\t<g style=\"stroke:", edgeFill, "; stroke-width: ", edge_width.toString(), "\">\n");
 	for (var i = 0; i < edges.length; i++) {
 		var e = edges[i];
-		svg.push("\t\t\t<line x1=\"", vertices[e[0]][0].toString(), "\" y1=\"", vertices[e[0]][1].toString(), "\" x2=\"", vertices[e[1]][0].toString(), "\" y2=\"", vertices[e[1]][1].toString(), "\" />\n");
+		var strokeWidth = (edgeWeights[i] === 1) ? "" : " stroke-width=\"" + (edge_width * edgeWeights[i]) + "\"";
+		svg.push("\t\t\t<line x1=\"", vertices[e[0]][0].toString(), "\" y1=\"", vertices[e[0]][1].toString(), "\" x2=\"", vertices[e[1]][0].toString(), "\" y2=\"", vertices[e[1]][1].toString(), "\"", strokeWidth, " />\n");
 	}
 	svg.push("\t\t</g>\n");
 
@@ -198,8 +205,8 @@ function DrawGraph(container, graph, settings, width, height) {
 		for (var v = 0; v < vertices.length; v++) {
 			svg.push("\t\t<image xlink:href=\"", images[v], "\" clip-path=\"url(#v", v, ")\" x=\"", vertices[v][0] - vertex_radius, "\" y=\"", vertices[v][1] - vertex_radius, "\" width=\"", 2 * vertex_radius + 1, "\" height=\"", 2 * vertex_radius + 1, "\">\n");
 			if (hoverLabels)
-				svg.push("\t\t\t\t<title>", hoverLabels[v], "</title>\n")
-			svg.push("\t\t\t</image>")
+				svg.push("\t\t\t\t<title>", hoverLabels[v], "</title>\n");
+			svg.push("\t\t\t</image>");
 		}
 		svg.push("\t</g>\n");
 	}
@@ -209,8 +216,8 @@ function DrawGraph(container, graph, settings, width, height) {
 		for (var v = 0; v < vertices.length; v++) {
 			svg.push("\t\t<text x=\"", vertices[v][0], "\" y=\"", vertices[v][1], "\" style=\"dominant-baseline: central; \">", labels[v], "\n");
 			if (hoverLabels)
-				svg.push("\t\t\t\t<title>", hoverLabels[v], "</title>\n")
-			svg.push("\t\t\t</text>")
+				svg.push("\t\t\t\t<title>", hoverLabels[v], "</title>\n");
+			svg.push("\t\t\t</text>");
 		}
 		svg.push("\t</g>\n");
 	}
