@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SiteNew.master.cs" Inherits="SiteNew" %>
+<html>
+<head runat="server">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en,fa" />
+	<meta name="author" content="Reza Jooyandeh" />
+	<meta name="copyright" content="2005--2016 Mohammadreza Jooyandeh" />
+	<meta name="keywords" content="Reza,Jooyandeh,Reza Jooyandeh,Mohammadreza,Mohammadreza Jooyandeh,رضا,جوینده,رضا جوینده,محمدرضا,محمدرضا جوینده,Graph Generation,Graph Theory,Microsoft" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link href="Images/Me-Home.jpg" rel="icon" type="image/png"/>
+	<link rel="stylesheet" href="Styles/Main.css" />
+	<script src="/Scripts/Main.js"></script>
+	<asp:ContentPlaceHolder id="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<div class="container">
+		<asp:ContentPlaceHolder id="pageContent" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+	<!--Google Analytic-->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-64557573-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- StatCounter -->
+	<script>
+		var sc_project = 10514326;
+		var sc_invisible = 1;
+		var sc_security = "845c496e";
+		var hostName = document.location.hostname.toLowerCase();
+		if ((hostName === "www.jooyandeh.com") || (hostName === "jooyandeh.com")) {
+			var scJsHost = (("https:" === document.location.protocol) ? "https://secure." : "http://www.");
+			document.write("<script src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");
+		}
+	</script>
+
+</body>
+</html>

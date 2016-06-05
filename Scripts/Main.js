@@ -3,8 +3,6 @@
 	}
 	EmailObfuscator.writeEmailTo = function (elementId) {
 		var nos = $("#" + elementId);
-		var parent = nos.parent();
-		nos.remove();
 
 		var data = new Array(
 			609, 621, 613, 608, 632, 611, 566, 638,
@@ -13,7 +11,7 @@
 			609, 524, 638, 617, 630, 621, 588,
 			614, 611, 611, 629, 621, 610, 616, 617,
 			612, 546, 623, 611, 609, 524);
-		parent.append(getLink(data, ''));
+		nos.html(getLink(data, ''));
 	};
 
 	function getLink(data, extratag) {
@@ -189,7 +187,7 @@ var Braille = (function () {
 
 	function writeDots(symbolOrChar, dots, width, elementId) {
 		var scale = width / 154;
-		var height = 315 * scale;
+		var height = 260 * scale;
 		var svg = d3.select("#" + elementId).append("svg")
 			.attr("width", width)
 			.attr("height", height);

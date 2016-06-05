@@ -4,3 +4,10 @@
 
 /App_Data/PublishProfiles
 *.PublishSettings
+
+/.vs/
+
+/_NCrunch_RezaWebsite/
+
+*.user
+

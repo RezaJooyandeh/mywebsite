@@ -136,19 +136,46 @@ var Hypo_Drawing_Settings = {
 function DrawGraph(container, graph, settings, width, height) {
 	var vertices = graph.vertices;
 	var edges = graph.edges;
+	var images = graph.images;
+	var labels = graph.labels;
 	var viewbox = graph.viewbox;
+	var hoverLabels = graph.hoverLabels;
 	var edge_width = settings.edge_width;
 	var vertex_stroke = settings.vertex_stroke;
 	var vertex_radius = settings.vertex_radius;
+	var textColor = "white";
+	if (settings.textColor)
+		textColor = settings.textColor;
+
+	var vertexFill = "#000000";
+	if (settings.vertexFill)
+		vertexFill = settings.vertexFill;
+
+	var vertexStroke = "#000000";
+	if (settings.vertexStroke)
+		vertexStroke = settings.vertexStroke;
+
+	var edgeFill = "#000000";
+	if (settings.edgeFill)
+		edgeFill = settings.edgeFill;
 
 	var svg = [];
-	svg.push("<svg width=\"", width, "\" height=\"", height, "\" version=\"1.1\"");
+	svg.push("<svg width=\"", width, "\" height=\"", height, "\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"");
 	if (viewbox)
 		svg.push("viewBox=\"" + viewbox + "\"");
-	svg.push(" xmlns=\"http://www.w3.org/2000/svg\">");
+	svg.push(">");
+	if (images) {
+		svg.push("\t<defs>\n");
+		for (var v = 0; v < vertices.length; v++) {
+			svg.push("\t\t<clipPath id=\"v", v, "\">");
+			svg.push("\t\t\t<circle cx=\"", vertices[v][0], "\" cy=\"", vertices[v][1], "\" r=\"", vertex_radius.toString(), "\"></circle>");
+			svg.push("\t\t</clipPath>");
+		}
+		svg.push("\t</defs>");
+	}
 	svg.push("\t<g style=\"stroke-width: 0.025in; fill: none\">\n");
 	svg.push("\t\t<!-- Edges -->\n");
-	svg.push("\t\t<g style=\"stroke: #000000; stroke-width: ", edge_width.toString(), "\">\n");
+	svg.push("\t\t<g style=\"stroke:", edgeFill, "; stroke-width: ", edge_width.toString(), "\">\n");
 	for (var i = 0; i < edges.length; i++) {
 		var e = edges[i];
 		svg.push("\t\t\t<line x1=\"", vertices[e[0]][0].toString(), "\" y1=\"", vertices[e[0]][1].toString(), "\" x2=\"", vertices[e[1]][0].toString(), "\" y2=\"", vertices[e[1]][1].toString(), "\" />\n");
@@ -156,13 +183,37 @@ function DrawGraph(container, graph, settings, width, height) {
 	svg.push("\t\t</g>\n");
 
 	svg.push("\t\t<!-- Vertices -->\n\n");
-	svg.push("\t\t<g style=\"fill: #000000; stroke:#000000; stroke-width: ", vertex_stroke.toString(), ";\">\n");
+	svg.push("\t\t<g style=\"fill: ", vertexFill, "; stroke:", vertexStroke, "; stroke-width: ", vertex_stroke.toString(), ";\">\n");
 	for (var v = 0; v < vertices.length; v++) {
-		svg.push("\t\t\t<circle cx=\"", vertices[v][0], "\" cy=\"", vertices[v][1], "\" r=\"", vertex_radius.toString(), "\" />\n");
+		svg.push("\t\t\t<circle cx=\"", vertices[v][0], "\" cy=\"", vertices[v][1], "\" r=\"", vertex_radius.toString(), "\">\n");
+		if (hoverLabels)
+			svg.push("\t\t\t\t<title>", hoverLabels[v], "</title>\n");
+		svg.push("\t\t\t</circle>");
 	}
 	svg.push("\t\t</g>\n");
-
 	svg.push("\t</g>\n");
+	if (images) {
+		svg.push("\t<!-- Image Labels -->\n\n");
+		svg.push("\t<g>\n");
+		for (var v = 0; v < vertices.length; v++) {
+			svg.push("\t\t<image xlink:href=\"", images[v], "\" clip-path=\"url(#v", v, ")\" x=\"", vertices[v][0] - vertex_radius, "\" y=\"", vertices[v][1] - vertex_radius, "\" width=\"", 2 * vertex_radius + 1, "\" height=\"", 2 * vertex_radius + 1, "\">\n");
+			if (hoverLabels)
+				svg.push("\t\t\t\t<title>", hoverLabels[v], "</title>\n")
+			svg.push("\t\t\t</image>")
+		}
+		svg.push("\t</g>\n");
+	}
+	else if (labels) {
+		svg.push("\t<!-- Labels -->\n\n");
+		svg.push("\t<g style=\"text-anchor: middle; fill: ", textColor, "\">\n");
+		for (var v = 0; v < vertices.length; v++) {
+			svg.push("\t\t<text x=\"", vertices[v][0], "\" y=\"", vertices[v][1], "\" style=\"dominant-baseline: central; \">", labels[v], "\n");
+			if (hoverLabels)
+				svg.push("\t\t\t\t<title>", hoverLabels[v], "</title>\n")
+			svg.push("\t\t\t</text>")
+		}
+		svg.push("\t</g>\n");
+	}
 	svg.push("</svg>\n");
 
 	var containerElement = document.getElementById(container);

@@ -20,13 +20,16 @@
 						<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
 							<p>
 								Social:
-								<a href="http://au.linkedin.com/in/jooyandeh"><img src="Images/Social/Linkedin-Small.png" alt="Linked in" title="Linked in" style="border: 0" /></a>
-								<a href="http://scholar.google.com.au/citations?user=FYCUcLkAAAAJ&amp;sortby=pubdate"><img src="Images/Social/GoogleScholar-Small.png" alt="Google Scholar" title="Google Scholar" style="border: 0" /></a>
-								<a href="http://cs.anu.edu.au/user/4121"><img src="Images/Social/WorkPage-Small.png" alt="University Homepage" title="University Homepage" style="border: 0" /></a>
-								<a href="http://academic.research.microsoft.com/Author/56701019/mohammadreza-jooyandeh"><img src="Images/Social/MicrosoftAcademic-Small.png" alt="University Homepage" title="Microsoft Academic" style="border: 0" /></a>
-								<a href="http://anu.academia.edu/MohammadrezaJooyandeh"><img src="Images/Social/Academia-Small.png" alt="Academia" title="Academia" style="border: 0" /></a>
-								<a href="http://www.jooyandeh.com"><img src="Images/Social/HomePage-Small.png" alt="Homepage" title="Homepage" style="border: 0" /></a>
-								<a href="https://www.facebook.com/mohammadreza.jooyandeh"><img src="Images/Social/Facebook-Small.png" alt="Facebook" title="Facebook" style="border: 0" /></a>
+								<a href="http://au.linkedin.com/in/jooyandeh">
+									<img src="Images/Social/Linkedin-Small.png" alt="Linked in" title="Linked in" style="border: 0" /></a>
+								<a href="http://scholar.google.com.au/citations?user=FYCUcLkAAAAJ&amp;sortby=pubdate">
+									<img src="Images/Social/GoogleScholar-Small.png" alt="Google Scholar" title="Google Scholar" style="border: 0" /></a>
+								<a href="http://academic.research.microsoft.com/Author/56701019/mohammadreza-jooyandeh">
+									<img src="Images/Social/MicrosoftAcademic-Small.png" alt="University Homepage" title="Microsoft Academic" style="border: 0" /></a>
+								<a href="http://www.jooyandeh.com">
+									<img src="Images/Social/HomePage-Small.png" alt="Homepage" title="Homepage" style="border: 0" /></a>
+								<a href="https://www.facebook.com/mohammadreza.jooyandeh">
+									<img src="Images/Social/Facebook-Small.png" alt="Facebook" title="Facebook" style="border: 0" /></a>
 							</p>
 						</div>
 					</div>
@@ -44,8 +47,9 @@
 						<b>Subject of Thesis:</b> Recursive Algorithms for <a href="Combinatorics/GraphGeneration.aspx">Generation</a> of Planar Graphs
 						<br />
 						Supervisor: <a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan Mckay</a>
-						<br />Co-supervisor: <a href="http://cs.anu.edu.au/~Weifa.Liang/">Prof. Weifa Liang</a>,
-						<br />Advisor: <a href="http://www.mpi-inf.mpg.de/~pascal/">Dr. Pascal Schweitzer</a>
+						<br />
+						Co-supervisor: <a href="http://cs.anu.edu.au/~Weifa.Liang/">Prof. Weifa Liang</a>,
+						Advisor: <a href="http://www.mpi-inf.mpg.de/~pascal/">Dr. Pascal Schweitzer</a>
 					</p>
 					<p>
 						<b>M.Sc. In Computer Science (Honours)</b> (2006-2009), GPA: 19.52 / 20
@@ -71,8 +75,38 @@
 					<p>
 						<b>Diploma in Mathematics and Physics</b> (1998-2002)<br />
 						<a href="http://www.nodet.org/">National Organization for Development of Exceptional Talents</a>
-						<br /><a href="http://en.wikipedia.org/wiki/Shahid_Soltani_School">Shahid Soltani High School</a>, Iran
+						<br />
+						<a href="http://en.wikipedia.org/wiki/Shahid_Soltani_School">Shahid Soltani High School</a>, Iran
 					</p>
+				</div>
+			</div>
+
+			<div id="AwardsAndHonors" class="MyPanel SpecialPanel4">
+				<div>Awards and Honors</div>
+				<div>
+					<p><b><%--Aug --%>2015</b>:
+						<img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
+					<p><b><%--Dec --%>2012</b>:
+						<img src="Images/Presentation.png" alt="Presentation" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Best Student Presentation Award</span>, <a href="http://conferences.science.unsw.edu.au/36accmcc/">36<sup>th</sup> Australasian Conference on Combinatorial Math & Combinatorial Computing</a>, Australia.</p>
+					<p><b><%--Dec --%>2010</b>:
+						<img src="Images/Presentation-GS.png" alt="Presentation" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Top-Three Shortlist</span> for the <i>Best Student Presentation</i> at 34th Australasian Conference on Combinatorial Math & Combinatorial Computing, Australia.</p>
+					<p><b><%--Oct --%>2010:</b>
+						<img src="Images/Xbox-Small.png" alt="Gaming" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> prize</span> in <i><a href="http://www.anu-cssa.com/gamecamp/">Microsoft - ANU ImagineCup Game Camp</a></i>, Australia.</p>
+					<p><b><%--Jun --%>2008:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in Department of Math<%--ematics--%> and Computer Science</i> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran.</p>
+					<p><b><%--Jun --%>2007:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in <b>All Majors</b> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a></i>, Iran.</p>
+					<p><b><%--May --%>2006:</b>
+						<img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>30<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
+					<p><b><%--May --%>2006:</b> <span style="color: Green">4<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
+					<p><b><%--Jul --%>2005:</b>
+						<img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005"><i>12<sup>th</sup> International Mathematics Contest for University Students</i></a>, Bulgaria.</p>
+					<p><b><%--May --%>2005:</b>
+						<img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>29<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
+					<p><b><%--May --%>2005:</b> <span style="color: Green">12<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
+					<p><b><%--Dec --%>2004:</b>
+						<img src="Images/ACM_ICPC.png" alt="ACM ICPC" style="height: 25px; margin-right: 5px;" /><img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mentioned</span>, <i>29<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
+					<p><b><%--Nov --%>2003:</b>
+						<img src="Images/ACM_ICPC.png" alt="ACM ICPC" style="height: 25px; margin-right: 5px;" /><span style="color: Green">15<sup>th</sup> team rank</span>, <i>28<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
+					<p><b><%--Jul --%>2003:</b> <span style="color: Green">7<sup>th</sup> team rank</span>, <i>Robocup Rescue Simulation League</i>, Italy.</p>
 				</div>
 			</div>
 		</div>
@@ -83,10 +117,31 @@
 					<div>
 						<span class="bigText"><a href="http://www.microsoft.com">Microsoft Corporation</a> (Since 2014)</span>
 						<ul>
-							<li><b><a href="http://www.onenote.com" style="color: #7D1D73;">Microsoft OneNote  <img src="Images/OneNote.png" style="height: 25px;" alt="Microsoft OneNote Icon"/></a> (Since 2015)</b>
+							<li><b>Seeing AI (Since 2016)</b><br />
+								Coach of Interns @ Microsoft Garage<br />
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe src="https://www.youtube.com/embed/R2mC-NUAmMk"></iframe>
+								</div>
 								<br />
-								Software Developer Engineer 2 (Since Sep 2015)<br />
-								Software Developer Engineer (Jan 2015-Sep 2015)
+							</li>
+							<li><b>Sticky Notes (Since 2015)</b><br />
+								Software Developer Engineer 2
+								<img class="img-responsive" src="Images/StickyNotes.png" alt="Sticky Notes" />
+								<br />
+							</li>
+							<li><b><a href="http://www.onenote.com/learningtools">Learning Tools for OneNote</a> (2015-2016)</b><br />
+								Software Developer Engineer 2
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe src="https://www.youtube.com/embed/ud_U-7ENhY8"></iframe>
+								</div>
+								<br />
+							</li>
+							<li><b><a href="http://www.onenote.com" style="color: #7D1D73;">Microsoft OneNote 
+								<img src="Images/OneNote.png" style="height: 25px;" alt="Microsoft OneNote Icon" /></a> (2015)</b>
+								<br />
+								Software Developer Engineer
+								<br />
+								<br />
 							</li>
 							<li><b>Do More Experiences (2014-2015)</b>
 								<br />
@@ -98,9 +153,10 @@
 						<span class="bigText">Zola Soft (2014)</span>
 						<ul>
 							<li>
-								<b><a href="http://apps.microsoft.com/windows/app/world-cup-2014-brazil/a1095b85-d4ff-4a22-9471-6188e35cbe34">World Cup 2014 Brazil Windows App</a></b> Rating: <img style="height: 15px" src="Images/4.5-star.png" alt="4.5 stars" />
+								<b>World Cup 2014 Brazil Windows <a href="http://apps.microsoft.com/windows/app/world-cup-2014-brazil/a1095b85-d4ff-4a22-9471-6188e35cbe34">App</a></b> Rating:
+								<img style="height: 15px" src="Images/4.5-star.png" alt="4.5 stars" />
 								<br />
-								Developer and Designer
+								Software Developer and Designer
 							</li>
 						</ul>
 					</div>
@@ -109,18 +165,14 @@
 						<ul>
 							<li>
 								<b>Nebras Framework</b>
-								<br />
-								Project Manager, Architect and Senior Developer
 							</li>
 							<li>
 								<b>Nebras Security Service</b>
-								<br />
-								Project Manager, Architect and Senior Developer
 							</li>
 							<li>
 								<b>Nebras Persistence Service</b>
 								<br />
-								Senior Developer
+								Project Manager, Architect and Senior Developer
 							</li>
 						</ul>
 					</div>
@@ -142,36 +194,119 @@
 								<br />
 								Project Manager, Architect and Developer
 							</li>
-							<li>
-								<b>Sourena Mobile Services</b>
-								<br />
-								Project Manager, Architect and Developer
-							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<div id="AwardsAndHonors" class="MyPanel SpecialPanel4">
-				<div>Awards and Honors</div>
+		<div class="col-lg-12 col-md-6 col-sm-12 col-xs-12">
+			<div id="ProfessionalExperiencesLarge" class="MyPanel SpecialPanel6">
+				<div>Work Experience</div>
 				<div>
-					<p><b>Aug 2015</b>: <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
-					<p><b>Dec 2012</b>: <img src="Images/Presentation.png" alt="Presentation" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Best Student Presentation Award</span>, <a href="http://conferences.science.unsw.edu.au/36accmcc/">36<sup>th</sup> Australasian Conference on Combinatorial Math & Combinatorial Computing</a>, Australia.</p>
-					<p><b>Dec 2010</b>: <span style="color: Green">Top-Three Shortlist</span> for the <i>Best Student Presentation</i> at 34th Australasian Conference on Combinatorial Math & Combinatorial Computing, Australia.</p>
-					<p><b>Oct 2010:</b> <img src="Images/Xbox-Small.png" alt="Gaming" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> prize</span> in <i><a href="http://www.anu-cssa.com/gamecamp/">Microsoft - ANU ImagineCup Game Camp</a></i>, Australia.</p>
-					<p><b>Jun 2008:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in Department of Mathematics and Computer Science</i> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran.</p>
-					<p><b>Jun 2007:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in <b>All Majors</b> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a></i>, Iran.</p>
-					<p><b>May 2006:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>30<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
-					<p><b>May 2006:</b> <span style="color: Green">4<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
-					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005"><i>12<sup>th</sup> International Mathematics Contest for University Students</i></a>, Bulgaria.</p>
-					<p><b>May 2005:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>29<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
-					<p><b>May 2005:</b> <span style="color: Green">12<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
-					<p><b>Dec 2004:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mentioned</span>, <i>29<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
-					<p><b>Nov 2003:</b> <span style="color: Green">15<sup>th</sup> team rank</span>, <i>28<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
-					<p><b>Jul 2003:</b> <span style="color: Green">7<sup>th</sup> team rank</span>, <i>Robocup Rescue Simulation League</i>, Italy.</p>
+					<div>
+						<span class="bigText"><a href="http://www.microsoft.com">Microsoft Corporation</a> (Since 2014)</span>
+						<div style="margin-top: 10px;">
+							<div class="col-lg-6">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe src="https://www.youtube.com/embed/R2mC-NUAmMk"></iframe>
+								</div>
+								<b>Seeing AI (Since 2016)</b><br />
+								Coach of Interns @ Microsoft Garage<br />
+							</div>
+							<div class="col-lg-6">
+								<img class="img-responsive" src="Images/StickyNotes.png" alt="Sticky Notes" />
+								<b>Sticky Notes (Since 2015)</b><br />
+								Software Developer Engineer 2
+							</div>
+							<div class="col-lg-12" style="height: 20px;"></div>
+							<div class="col-lg-6">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe src="https://www.youtube.com/embed/ud_U-7ENhY8"></iframe>
+								</div>
+								<b><a href="http://www.onenote.com/learningtools">Learning Tools for OneNote</a> (2015-2016)</b><br />
+								Software Developer Engineer 2
+							</div>
+							<div class="col-lg-6">
+<%--								<div class="embed-responsive embed-responsive-16by9">
+									<iframe src="https://www.youtube.com/watch?v=_bKiatpaacg"></iframe>
+								</div>--%>
+								<b>
+									<a href="http://www.onenote.com" style="color: #7D1D73;">Microsoft OneNote 
+										<img src="Images/OneNote.png" style="height: 25px;" alt="Microsoft OneNote Icon" /></a> (2015)
+								</b>
+								<br />
+								Software Developer Engineer
+								<br />
+								<br />
+								<b>Do More Experiences (2014-2015)</b>
+								<br />
+								Software Developer Engineer
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+							</div>
+
+							<%--<div class="col-lg-12"></div>--%>
+
+							<div class="col-lg-6">
+								<span class="bigText">Zola Soft (2014)</span>
+								<ul>
+									<li>
+										<b>World Cup 2014 Brazil Windows <a href="http://apps.microsoft.com/windows/app/world-cup-2014-brazil/a1095b85-d4ff-4a22-9471-6188e35cbe34">App</a></b> Rating:
+										<img style="height: 15px" src="Images/4.5-star.png" alt="4.5 stars" />
+										<br />
+										Software Developer and Designer
+									</li>
+								</ul>
+								<span class="bigText">Nebras Informatics (2008–2010)</span>
+								<ul>
+									<li>
+										<b>Nebras Framework</b>
+									</li>
+									<li>
+										<b>Nebras Security Service</b>
+									</li>
+									<li>
+										<b>Nebras Persistence Service</b>
+										<br />
+										Project Manager, Architect and Senior Developer
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<span class="bigText">Sourena Software Group (2005–2008)</span>
+								<ul>
+									<li>
+										<b>FidoFa (An Smart Stock Trader)</b>
+										<br />
+										Architecht and Senior Developer
+									</li>
+									<li>
+										<b>Persian Text to Speech</b>
+										<br />
+										Project Manager
+									</li>
+									<li>
+										<b>Braille Word Processor</b>
+										<br />
+										Project Manager, Architect and Developer
+									</li>
+								</ul>
+							</div>
+						</div>
+					&nbsp;
+					</div>
 				</div>
 			</div>
 		</div>
@@ -190,7 +325,7 @@
 					<p>
 						<a href="http://www.jooyandeh.com">M. Jooyandeh</a>, <a href="http://cs.anu.edu.au/~bdm">B.D. McKay</a>,
 					<a href="http://users.tkk.fi/u/pat">P.R.J. Östergård</a>, V. Pettersson, <a href="http://math.tricube.de">C.T. Zamfirescu</a>,
-					Planar Hypohamiltonian Graphs on 40 Vertices, <i>(to appear in the Journal of Graph Theory)</i>, <a href="http://arxiv.org/abs/1302.2698">Avaliable on arXiv.org</a>,
+					Planar Hypohamiltonian Graphs on 40 Vertices, <i>Journal of Graph Theory</i>, <a href="http://dx.doi.org/10.1002/jgt.22015">DOI</a>,
 					<a class="paper-download" href="http://arxiv.org/pdf/1302.2698v1">PDF</a>.
 					</p>
 					<p>
@@ -294,16 +429,18 @@
 							<ul>
 								<li>
 									<b>Lecturer, <a href="http://cs.anu.edu.au/student/comp3630/">Theory of Computation</a>, 2011</b>
-									<br />Course Coordinator: <a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a>
+									<br />
+									Course Coordinator: <a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a>
 								</li>
 								<li>
 									<b>Teacher Assistant, <a href="http://cs.anu.edu.au/student/comp3600/">Algorithms</a>, 2010-2012</b>
-									<br />Course Coordinator: <a href="http://cs.anu.edu.au/~Weifa.Liang/">Prof. Weifa Liang</a>
+									<br />
+									Course Coordinator: <a href="http://cs.anu.edu.au/~Weifa.Liang/">Prof. Weifa Liang</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<b><a href="http://www.anu.edu.au">Australian National University</a></b>
+							<b><a href="http://aut.ac.ir">Amirkabir University of Technology</a></b>
 							<ul>
 								<li><b>Teaching Assistant, Theory of Computer Science, 2006</b></li>
 								<li><b>Teaching Assistant, C++ Programming, 2005</b></li>

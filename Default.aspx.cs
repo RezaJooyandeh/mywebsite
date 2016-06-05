@@ -2,8 +2,8 @@
 
 public partial class _Default : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
-		divSocialNetwork.InnerHtml = SocialNetwork.GenerateHtml();
-    }
+	protected void Page_Load(object sender, EventArgs e)
+	{
+		//divSocialNetwork.InnerHtml = SocialNetwork.GenerateHtml();
+	}
 }
