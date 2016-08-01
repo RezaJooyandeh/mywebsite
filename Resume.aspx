@@ -171,13 +171,13 @@
 					<p><b>Jun 2007:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in <b>All Majors</b> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a></i>, Iran.</p>
 					<p><b>Dec 2012</b>: <img src="Images/Presentation.png" alt="Presentation" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Best Student Presentation Award</span>, at the <a href="http://conferences.science.unsw.edu.au/36accmcc/">36<sup>th</sup> Australasian Conference on Combinatorial Math & Combinatorial Computing</a>, Australia.</p>
 					<p><b>May 2006:</b> <span style="color: Green">4<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
+					<p><b>Jul 2003:</b> <span style="color: Green">7<sup>th</sup> team rank</span>, <i>Robocup Rescue Simulation League</i>, Italy.</p>
 
 					<hr />
 					<p><b>Dec 2010</b>: <span style="color: Green">Top-Three Shortlist</span> for the <i>Best Student Presentation</i> at the 34th Australasian Conference on Combinatorial Mathematics & Combinatorial Computing, Australia.</p>
 					<p><b>Jun 2008:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in Department of Mathematics and Computer Science</i> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran.</p>
 					<p><b>May 2005:</b> <span style="color: Green">12<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
 					<p><b>Nov 2003:</b> <span style="color: Green">15<sup>th</sup> team rank</span>, <i>28<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
-					<p><b>Jul 2003:</b> <span style="color: Green">7<sup>th</sup> team rank</span>, <i>Robocup Rescue Simulation League</i>, Italy.</p>
 				</div>
 			</div>
 		</div>
