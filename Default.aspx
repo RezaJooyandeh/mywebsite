@@ -13,7 +13,7 @@
 	<script src="http://d3js.org/d3.geo.polyhedron.v0.min.js"></script>
 
 	<script src="/Scripts/WorldMap.js"></script>
-	<script src="/Combinatorics/Data/Scripts/SampleGraphs.js"></script>
+	<script src="/Scripts/GraphSvg.js"></script>
 
 	<style>
 		.persianText {
@@ -51,13 +51,12 @@
 						As a PhD student I was working on isomprohism testing of plane graphs and <a href="/Combinatorics/GraphGeneration.aspx">isomorph-free exhuastive generation of graphs</a>
 						under supervision of <a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a>.
 					</p>
-					<p>More about me:
+					<p>More about me:</p>
 						<ul>
-							<li>My detailed <a href="Resume.aspx">Résumé</a>.</li>
+							<li>My detailed <a href="Resume.aspx">Resume</a>.</li>
 							<li>My <span style="font-weight: bold;">passion</span> is to bridge research and high-tech to industry work. A lot of amazing studies and researches are being done every day that never get to people's hand. My objective is to improve people's quality of life by bringing high-tech research into the software industry.</li>
 							<li>My other <span style="font-weight: bold;">passion</span> is to teach and mentor. <span style="font-style: italic;">An aha moment makes my day.</span></li>
 						</ul>
-					</p>
 				</div>
 			</div>
 		</div>
@@ -69,38 +68,39 @@
 				<div>
 					<p>
 						<a href="http://www.jooyandeh.com">Reza Jooyandeh</a> ► <a href="http://cs.anu.edu.au/~bdm/">Brendan McKay</a> ► <a href="http://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erdős</a>.
-
-						<div id="erdus-graph"></div>
-						<script>
-							var erdusGraph = {
-								vertices: [[30, 150], [130, 230], [130, 105], [230, 150], [130, 30], [230, 230], [430, 150], [330, 230]],
-								edges: [[0, 1], [0, 2], [0, 3], [0, 4], [1, 5], [2, 3], [3, 4], [3, 6], [5, 7], [6, 7]],
-								edgeWeights: [1, 1, 3, 1, 1, 1, 1, 3, 1, 1],
-								labels: ["RJ", "DK", "SMH", "BM", "GB", "SA", "PE", "PC"],
-								hoverLabels: ["Reza Jooyandeh", "Dariush Kiani", "Seyed Mehdi Hashemi", "Brendan McKay", "Gunnar Brinkmann", "Saeed Akbari", "Paul Erdős", "Peter Cameron"],
-								images: [
-									"Images/Me-HomePage.jpg",
-									"Images/Erdos/DariushKiani.jpg",
-									"Images/Erdos/SMehdiHashemi.jpg",
-									"Images/Erdos/BrendanMcKay.jpg",
-									"Images/Erdos/GunnarBrinkmann.jpg",
-									"Images/Erdos/SaeedAkbari.jpg",
-									"Images/Erdos/PaulErdos.jpg",
-									"Images/Erdos/PeterCameron.jpg"
-								]
-							};
-							var erdusGraphSettings = {
-								edge_width: 1.5,
-								vertex_stroke: 1,
-								vertex_radius: 29,
-								textColor: "yellow",
-								vertexStroke: "#BECFE9",
-								edgeFill: "#BECFE9"
-							};
-
-							DrawGraph("erdus-graph", erdusGraph, erdusGraphSettings, "460", "260");
-						</script>
 					</p>
+
+					<div id="erdus-graph" style="margin-bottom: 10px;"></div>
+					<script>
+						$("#erdus-graph").html(
+							GraphSvg.toSvg(
+								"erdus-graph",
+								{
+									vertices: [{ x: 30, y: 150 }, { x: 130, y: 230 }, { x: 130, y: 105 }, { x: 230, y: 150 }, { x: 130, y: 30 }, { x: 230, y: 230 }, { x: 430, y: 150 }, { x: 330, y: 230 }],
+									edges: [[0, 1], [0, 2], [0, 3], [0, 4], [1, 5], [2, 3], [3, 4], [3, 6], [5, 7], [6, 7]],
+									edgesWeight: [1, 1, 2, 1, 1, 1, 1, 2, 1, 1],
+									verticesHoverLabel: ["Reza Jooyandeh", "Dariush Kiani", "Seyed Mehdi Hashemi", "Brendan McKay", "Gunnar Brinkmann", "Saeed Akbari", "Paul Erdős", "Peter Cameron"],
+									verticesImagesUrl: [
+										"Images/Me-HomePage.jpg",
+										"Images/Erdos/DariushKiani.jpg",
+										"Images/Erdos/SMehdiHashemi.jpg",
+										"Images/Erdos/BrendanMcKay.jpg",
+										"Images/Erdos/GunnarBrinkmann.jpg",
+										"Images/Erdos/SaeedAkbari.jpg",
+										"Images/Erdos/PaulErdos.jpg",
+										"Images/Erdos/PeterCameron.jpg"
+									]
+								},
+								{
+									width: 460,
+									height: 260,
+									edgeWidth: 1.5,
+									vertexStrokeWidth: 1,
+									vertexRadius: 29,
+									vertexStrokeColor: "#BECFE9",
+									edgeColor: "#BECFE9"
+								}));
+					</script>
 				</div>
 			</div>
 
@@ -124,44 +124,44 @@
 				<div>
 					<p>
 						In 2014, I moved to Vancouver and started working at Microsoft in which I had the pleasure to work on several amazing projects:
-						<ul>
-							<li>
-								<h4>Seeing AI (2016)</h4>
-								Seeing AI helps people with visual impairment or blind to "see" the world around them. I have been the coach of the amazing team of interns who were working on this projects. The video below about Seeing AI was featured in the <a href="https://channel9.msdn.com/Events/Build/2016/KEY01">Keynote</a> of <span style="color: rgb(34, 189, 239)">//build/ 2016 conference</span> and was presented by <b>Satya Nadella</b>, CEO of Microsoft.
-
-								<div class="demo">
-									<div class="embed-responsive embed-responsive-16by9">
-										<iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/R2mC-NUAmMk"></iframe>
-									</div>
-								</div>
-							</li>
-							<li>
-								<h4>Learning Tools for OneNote (2015-2016) <img src="Images/Grand-Prize.png" alt="Grand Prize" /></h4>
-								This project started as a hackathon project in the Vancouver office and after expanding cross border and collaboration with Natural Language Processing team of Microsoft Research, Accessibility and several other amazing teams in Microsoft, ended up winning the grand prize of the worldwide Microsoft <span style="color: rgb(229, 14, 32)">//oneweek 2015</span> hackathon. Learning Tools for OneNote help everyone improve their reading and writing skills, including gifted learners, students with learning differences or a combination of any of the broad range of unique student abilities.
-
-								<div class="demo">
-									<div class="embed-responsive embed-responsive-16by9">
-										<iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/3Ztr44aKmQ8"></iframe>
-									</div>
-								</div>
-							</li>
-							<li>
-								<h4>Sticky Notes (Since 2015)</h4>
-								Currently, I am working on the Sticky Notes. We are building a smart and ubiquitous note-taking app to be right under your fingertips whenever you wanted to jot something down while being as comfortable as pen and paper.
-
-								<div class="demo">
-									<div class="embed-responsive embed-responsive-16by9">
-										<img class="img-responsive" src="Images/StickyNotes.png" alt="Sticky Notes" />
-									</div>
-								</div>
-							</li>
-							<li>
-								<h4>OneNote (2015) <img src="Images/OneNote.png" style="height: 25px;" alt="Microsoft OneNote"></h4>
-								Microsoft OneNote is a comprehensive, cross-platform, collaborative note taking app with the support of stylus and deep integrations with Office suite. I used to work in the Storage, Sync and Collaboration team of OneNote.
-								Also as a part of an internal hackathon project I worked on detecting shapes in OneNote which was later picked up by one of our team and is now <a href="https://blogs.office.com/2015/10/20/onenote-partners-with-fiftythree-to-support-pencil-and-paper-plus-shape-recognition-coming-soon/">officially released</a>.
-							</li>
-						</ul>
 					</p>
+					<ul>
+						<li>
+							<h4>Seeing AI (2016)</h4>
+							Seeing AI helps people with visual impairment or blind to "see" the world around them. I have been the coach of the amazing team of interns who were working on this projects. The video below about Seeing AI was featured in the <a href="https://channel9.msdn.com/Events/Build/2016/KEY01">Keynote</a> of <span style="color: rgb(34, 189, 239)">//build/ 2016 conference</span> and was presented by <b>Satya Nadella</b>, CEO of Microsoft.
+
+							<div class="demo">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/R2mC-NUAmMk"></iframe>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h4>Learning Tools for OneNote (2015-2016) <img src="Images/Grand-Prize.png" alt="Grand Prize" /></h4>
+							This project started as a hackathon project in the Vancouver office and after expanding cross border and collaboration with Natural Language Processing team of Microsoft Research, Accessibility and several other amazing teams in Microsoft, ended up winning the grand prize of the worldwide Microsoft <span style="color: rgb(229, 14, 32)">//oneweek 2015</span> hackathon. Learning Tools for OneNote help everyone improve their reading and writing skills, including gifted learners, students with learning differences or a combination of any of the broad range of unique student abilities.
+
+							<div class="demo">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/3Ztr44aKmQ8"></iframe>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h4>Sticky Notes (Since 2015)</h4>
+							Currently, I am working on the Sticky Notes. We are building a smart and ubiquitous note-taking app to be right under your fingertips whenever you wanted to jot something down while being as comfortable as pen and paper.
+
+							<div class="demo">
+								<div class="embed-responsive embed-responsive-16by9">
+									<img class="img-responsive" src="Images/StickyNotes.png" alt="Sticky Notes" />
+								</div>
+							</div>
+						</li>
+						<li>
+							<h4>OneNote (2015) <img src="Images/OneNote.png" style="height: 25px;" alt="Microsoft OneNote"></h4>
+							Microsoft OneNote is a comprehensive, cross-platform, collaborative note taking app with the support of stylus and deep integrations with Office suite. I used to work in the Storage, Sync and Collaboration team of OneNote.
+							Also as a part of an internal hackathon project I worked on detecting shapes in OneNote which was later picked up by one of our team and is now <a href="https://blogs.office.com/2015/10/20/onenote-partners-with-fiftythree-to-support-pencil-and-paper-plus-shape-recognition-coming-soon/">officially released</a>.
+						</li>
+					</ul>
 				</div>
 			</div>
 
@@ -170,21 +170,45 @@
 				<div>
 					<p>
 						Back in 2005-2008 I was working in a startup, Sourena Software Group which I was a co-founder of and I got to work on some amazing projects including a smart stock trader (FidoFa) and a word processor for some Braille embossers to be used by the division for the National Organization for Blind of the Ministry of Education of Iran for printing books in Braille to be used in schools nationwide. Speaking of Braille, here is how my name looks like in Braille:
-						<div style="margin: 10px 0 0 0;">
-							<table style="margin: 0 auto; padding: 0; border-collapse: collapse; border-spacing: 0;">
-								<tr>
-									<td>
-										<div id="brailleFirstName"></div>
-									</td>
-								</tr>
-								<tr>
-									<td style="padding-top: 10px;">
-										<div id="brailleLastName"></div>
-									</td>
-								</tr>
-							</table>
-						</div>
 					</p>
+					<div style="margin: 10px 0 0 0;">
+						<table style="margin: 0 auto; padding: 0; border-collapse: collapse; border-spacing: 0;">
+							<tr>
+								<td>
+									<div id="brailleFirstName"></div>
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-top: 10px;">
+									<div id="brailleLastName"></div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div id="AwardsAndHonors" class="MyPanel SpecialPanel4">
+				<div>Awards and Honors</div>
+				<div>
+					<p><b>Aug 2015</b>: <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
+					<p><b>May 2006:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>30<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
+					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005"><i>12<sup>th</sup> International Mathematics Contest for University Students</i></a>, Bulgaria.</p>
+					<p><b>Oct 2010:</b> <img src="Images/Xbox-Small.png" alt="Gaming" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> prize</span> in <i><a href="http://www.anu-cssa.com/gamecamp/">Microsoft - ANU ImagineCup Game Camp</a></i>, Australia.</p>
+					<p><b>May 2005:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>29<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
+					<p><b>Dec 2004:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mentioned</span>, <i>29<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
+					<p><b>Jun 2007:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in <b>All Majors</b> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a></i>, Iran.</p>
+					<p><b>Dec 2012</b>: <img src="Images/Presentation.png" alt="Presentation" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Best Student Presentation Award</span>, at the <a href="http://conferences.science.unsw.edu.au/36accmcc/">36<sup>th</sup> Australasian Conference on Combinatorial Math & Combinatorial Computing</a>, Australia.</p>
+					<p><b>May 2006:</b> <span style="color: Green">4<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
+
+					<hr />
+					<p><b>Dec 2010</b>: <span style="color: Green">Top-Three Shortlist</span> for the <i>Best Student Presentation</i> at the 34th Australasian Conference on Combinatorial Mathematics & Combinatorial Computing, Australia.</p>
+					<p><b>Jun 2008:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in Department of Mathematics and Computer Science</i> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran.</p>
+					<p><b>May 2005:</b> <span style="color: Green">12<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
+					<p><b>Nov 2003:</b> <span style="color: Green">15<sup>th</sup> team rank</span>, <i>28<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
+					<p><b>Jul 2003:</b> <span style="color: Green">7<sup>th</sup> team rank</span>, <i>Robocup Rescue Simulation League</i>, Italy.</p>
+
+					<p style="margin-top: 20px;">More details on my <a href="Resume.aspx">Resume</a> page...</p>
 				</div>
 			</div>
 
@@ -217,7 +241,7 @@
 				I have been working on a few Graph related projects:
 			</p>-->
 
-			<div class="MyPanel SpecialPanel4">
+			<div class="MyPanel NormalPanel">
 				<div>Find Me Through</div>
 				<div>
 					<p>
@@ -234,7 +258,7 @@
 			<div style="display: none;"></div>
 			<div>
 				<div style="text-align: center; padding-top: 5px; padding-bottom: 5px;">
-					© 2016 By Mohammadreza Jooyandeh - Last Update: 4 June 2016
+					© 2016 By Mohammadreza Jooyandeh - Last Update: 1 August 2016
 				</div>
 			</div>
 		</div>
