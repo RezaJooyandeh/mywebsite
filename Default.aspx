@@ -193,7 +193,7 @@
 				<div>
 					<p><b>Aug 2015</b>: <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
 					<p><b>May 2006:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>30<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
-					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005"><i>12<sup>th</sup> International Mathematics Contest for University Students</i></a>, Bulgaria.</p>
+					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005"><i>12<sup>th</sup> International Mathematics Olympiad for University Students</i></a>, Bulgaria.</p>
 					<p><b>Oct 2010:</b> <img src="Images/Xbox-Small.png" alt="Gaming" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> prize</span> in <i><a href="http://www.anu-cssa.com/gamecamp/">Microsoft - ANU ImagineCup Game Camp</a></i>, Australia.</p>
 					<p><b>May 2005:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>29<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
 					<p><b>Dec 2004:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mentioned</span>, <i>29<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
@@ -211,7 +211,7 @@
 			<div class="MyPanel SpecialPanel5">
 				<div>Friends &amp; Relevant Links</div>
 				<div>
-					<ul>
+					<%--<ul>
 						<li>
 							My wife, <a href="http://www.rajabiyazdi.com">Fateme Rajabiyazdi</a> is a PhD candidate at University of Calgary. Her research is focused on patient-physician communication, personal information, and self-monitoring.
 						</li>
@@ -222,7 +222,7 @@
 							My very good friend <a href="http://caagt.ugent.be/jgoedgeb/">Jan Goedgebeur</a> who is a Postdoctoral Researcher at University of Ghent working on generation of combinatorial structures.
 						</li>
 					</ul>
-					<hr/>
+					<hr/>--%>
 					<ul>
 						<li><a href="Combinatorics/GraphLab/">Graph Lab</a></li>
 						<li><a href="Combinatorics/GraphGeneration.aspx">Graph Generation</a>, my research field.</li>
@@ -241,7 +241,7 @@
 				<div>Find Me Through</div>
 				<div>
 					<p>
-						You can find me on <a href="https://github.com/Reza1024">GitHub</a>, <a href="http://au.linkedin.com/in/jooyandeh">LinkedIn</a>, <a href="https://scholar.google.com.au/citations?user=FYCUcLkAAAAJ">Google Scholar</a>, <a href="https://twitter.com/rjooyandeh">Twitter</a>, <a href="https://www.facebook.com/mohammadreza.jooyandeh">Facebook</a>.
+						You can find me on <a href="https://github.com/Reza1024">GitHub</a>, <a href="http://au.linkedin.com/in/jooyandeh">LinkedIn</a>, <a href="https://scholar.google.com.au/citations?user=FYCUcLkAAAAJ">Google Scholar</a>, <a href="https://twitter.com/rjooyandeh">Twitter</a>.
 						<br />
 						I wonder if you find what you are looking for here, so feel free to contact me at <span id="noscript-email">JavaScript must be enabled to display this email address.</span>.
 					</p>

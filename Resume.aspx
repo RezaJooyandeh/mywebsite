@@ -28,8 +28,8 @@
 									<img src="Images/Social/MicrosoftAcademic-Small.png" alt="University Homepage" title="Microsoft Academic" style="border: 0" /></a>
 								<a href="http://www.jooyandeh.com">
 									<img src="Images/Social/HomePage-Small.png" alt="Homepage" title="Homepage" style="border: 0" /></a>
-								<a href="https://www.facebook.com/mohammadreza.jooyandeh">
-									<img src="Images/Social/Facebook-Small.png" alt="Facebook" title="Facebook" style="border: 0" /></a>
+								<%--<a href="https://www.facebook.com/mohammadreza.jooyandeh">
+									<img src="Images/Social/Facebook-Small.png" alt="Facebook" title="Facebook" style="border: 0" /></a>--%>
 							</p>
 						</div>
 					</div>
@@ -164,7 +164,7 @@
 				<div>
 					<p><b>Aug 2015</b>: <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
 					<p><b>May 2006:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>30<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
-					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005"><i>12<sup>th</sup> International Mathematics Contest for University Students</i></a>, Bulgaria.</p>
+					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005"><i>12<sup>th</sup> International Mathematics Olympiad for University Students</i></a>, Bulgaria.</p>
 					<p><b>Oct 2010:</b> <img src="Images/Xbox-Small.png" alt="Gaming" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> prize</span> in <i><a href="http://www.anu-cssa.com/gamecamp/">Microsoft - ANU ImagineCup Game Camp</a></i>, Australia.</p>
 					<p><b>May 2005:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>29<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
 					<p><b>Dec 2004:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mentioned</span>, <i>29<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
