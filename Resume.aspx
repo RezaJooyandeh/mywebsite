@@ -162,22 +162,23 @@
 			<div id="AwardsAndHonors" class="MyPanel SpecialPanel4">
 				<div>Awards and Honors</div>
 				<div>
-					<p><b>Aug 2015</b>: <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
-					<p><b>May 2006:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>30<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
-					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005"><i>12<sup>th</sup> International Mathematics Olympiad for University Students</i></a>, Bulgaria.</p>
-					<p><b>Oct 2010:</b> <img src="Images/Xbox-Small.png" alt="Gaming" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> prize</span> in <i><a href="http://www.anu-cssa.com/gamecamp/">Microsoft - ANU ImagineCup Game Camp</a></i>, Australia.</p>
-					<p><b>May 2005:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, <i>29<sup>th</sup> Nationwide Mathematics Contest for University Students</i>, Iran.</p>
-					<p><b>Dec 2004:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mentioned</span>, <i>29<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
-					<p><b>Jun 2007:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in <b>All Majors</b> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a></i>, Iran.</p>
-					<p><b>Dec 2012</b>: <img src="Images/Presentation.png" alt="Presentation" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Best Student Presentation Award</span>, at the <a href="http://conferences.science.unsw.edu.au/36accmcc/">36<sup>th</sup> Australasian Conference on Combinatorial Math & Combinatorial Computing</a>, Australia.</p>
-					<p><b>May 2006:</b> <span style="color: Green">4<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
-					<p><b>Jul 2003:</b> <span style="color: Green">7<sup>th</sup> team rank</span>, <i>Robocup Rescue Simulation League</i>, Italy.</p>
+					<p><b>Aug 2015:</b> <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
+					<p><b>Aug 2016:</b> <img src="Images/First-Prize.png" alt="First Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">First Prize in Mobile End Points Category</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2016, Microsoft Wide.</p>
+					<p><b>May 2006:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, 30<sup>th</sup> Nationwide Mathematics Contest for University Students, Iran.</p>
+					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005">12<sup>th</sup> International Mathematics Olympiad for University Students</a>, Bulgaria.</p>
+					<p><b>Oct 2010:</b> <img src="Images/Xbox-Small.png" alt="Gaming" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> prize</span> in <a href="http://www.anu-cssa.com/gamecamp/">Microsoft - ANU ImagineCup Game Camp</a>, Australia.</p>
+					<p><b>May 2005:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, 29<sup>th</sup> Nationwide Mathematics Contest for University Students, Iran.</p>
+					<p><b>Dec 2004:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mentioned</span>, 29<sup>th</sup> ACM / International Collegiate Programming Contest, Asian Region, Tehran Site.</p>
+					<p><b>Jun 2007:</b> <img src="Images/Diploma-Small.png" alt="Top Graduate" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> rank</span> of total grade among M.Sc. Students in <b>All Majors</b> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran.</p>
+					<p><b>Dec 2012:</b> <img src="Images/Presentation.png" alt="Presentation" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Best Student Presentation Award</span>, at the <a href="http://conferences.science.unsw.edu.au/36accmcc/">36<sup>th</sup> Australasian Conference on Combinatorial Math & Combinatorial Computing</a>, Australia.</p>
+					<p><b>May 2006:</b> <span style="color: Green">4<sup>th</sup> rank</span>, M.Sc. Nationwide Entrance Exam in Computer Science, Iran.</p>
+					<p><b>Jul 2003:</b> <span style="color: Green">7<sup>th</sup> team rank</span>, Robocup Rescue Simulation League, Italy.</p>
 
 					<hr />
-					<p><b>Dec 2010</b>: <span style="color: Green">Top-Three Shortlist</span> for the <i>Best Student Presentation</i> at the 34th Australasian Conference on Combinatorial Mathematics & Combinatorial Computing, Australia.</p>
-					<p><b>Jun 2008:</b> <span style="color: Green">1<sup>st</sup> rank</span> of <i>total grade among M.Sc. Students in Department of Mathematics and Computer Science</i> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran.</p>
-					<p><b>May 2005:</b> <span style="color: Green">12<sup>th</sup> rank</span>, <i>M.Sc. Nationwide Entrance Exam in Computer Science</i>, Iran.</p>
-					<p><b>Nov 2003:</b> <span style="color: Green">15<sup>th</sup> team rank</span>, <i>28<sup>th</sup> ACM / International Collegiate Programming Contest</i>, Asian Region, Tehran Site.</p>
+					<p><b>Dec 2010:</b> <span style="color: Green">Top-Three Shortlist</span> for the Best Student Presentation at the 34th Australasian Conference on Combinatorial Mathematics & Combinatorial Computing, Australia.</p>
+					<p><b>Jun 2008:</b> <span style="color: Green">1<sup>st</sup> rank</span> of total grade among M.Sc. Students in Department of Mathematics and Computer Science of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran.</p>
+					<p><b>May 2005:</b> <span style="color: Green">12<sup>th</sup> rank</span>, M.Sc. Nationwide Entrance Exam in Computer Science, Iran.</p>
+					<p><b>Nov 2003:</b> <span style="color: Green">15<sup>th</sup> team rank</span>, 28<sup>th</sup> ACM / International Collegiate Programming Contest, Asian Region, Tehran Site.</p>
 				</div>
 			</div>
 		</div>
