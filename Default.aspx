@@ -104,7 +104,7 @@
 				</div>
 			</div>
 
-			<div id="AwardsAndHonors" class="MyPanel SpecialPanel4">
+			<div id="AwardsAndHonors" class="MyPanel SpecialPanel5">
 				<div>Selected Awards and Honors</div>
 				<div>
 					<p><b>Aug 2015:</b> <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
