@@ -29,7 +29,7 @@
 <asp:Content ID="PageContent" ContentPlaceHolderID="pageContent" runat="Server">
 	<div class="row">
 		<div class="col-12">
-			<div class="MyPanel SpecialPanel4" style="margin-top: 10px;">
+			<div class="MyPanel SpecialPanel6" style="margin-top: 10px;">
 				<div style="font-size: 2em; ">
 					Reza Jooyandeh
 					<div class="search-box" style="font-weight: normal; margin-top: 7px;">
@@ -104,7 +104,7 @@
 				</div>
 			</div>
 
-			<div id="AwardsAndHonors" class="MyPanel SpecialPanel5">
+			<div id="AwardsAndHonors" class="MyPanel SpecialPanel4">
 				<div>Selected Awards and Honors</div>
 				<div>
 					<p><b>Aug 2015:</b> <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
@@ -210,7 +210,7 @@
 			</div>
 
 			<div class="MyPanel SpecialPanel5">
-				<div>Friends &amp; Relevant Links</div>
+				<div><%--Friends &amp; --%>Relevant Links</div>
 				<div>
 					<%--<ul>
 						<li>
@@ -255,7 +255,7 @@
 			<div style="display: none;"></div>
 			<div>
 				<div style="text-align: center; padding-top: 5px; padding-bottom: 5px;">
-					© 2016 By Mohammadreza Jooyandeh - Last Update: 1 August 2016
+					© 2016 By Mohammadreza Jooyandeh - Last Update: 11 August 2016
 				</div>
 			</div>
 		</div>
