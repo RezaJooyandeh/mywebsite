@@ -41,11 +41,11 @@
 					<img style="float: right; margin-left: 10px;" id="imgMe" src="Images/Me-HomePage.jpg" alt="Reza Jooyandeh's Photo" />
 
 					<p>
-						My name is <b>Reza Jooyandeh</b> officially (Mohammadreza Jooyandeh). It is a <a href="http://en.wikipedia.org/wiki/Persian_language">Persian</a> name natively written as <span class="persianText">رضا جوینده</span> which means <i>satisfaction</i> (Reza) and <i>searcher</i> (Jooyandeh). It's roughly pronounced as <span style="font-family: Arial; font-weight: bold;">[rezäː&nbsp;'ʤuːjændeʰ]</span> in <a href="http://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA ASCII transcription</a>.
+						My name is <b>Reza Jooyandeh</b> (Mohammadreza Jooyandeh officially). It is a <a href="http://en.wikipedia.org/wiki/Persian_language">Persian</a> name natively written as <span class="persianText">رضا جوینده</span> which means <i>satisfaction</i> (Reza) and <i>searcher</i> (Jooyandeh). It's roughly pronounced as <span style="font-family: Arial; font-weight: bold;">[rezäː&nbsp;'ʤuːjændeʰ]</span> in <a href="http://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA ASCII transcription</a>.
 					</p>
 
 					<p>
-						I am a Computer Scientist by mind and a Mathematician by heart.
+						I am a Mathematician by mind and a Computer Scientist by heart.
 						I did two Bachelor degrees in Computer Science and Mathematics, followed by a Master in Computer Science at Amirkabir University of Technology.
 						Then I did my PhD in Computational Graph Theory (Computer Science) at Australian National University.
 						As a PhD student I was working on isomprohism testing of plane graphs and <a href="/Combinatorics/GraphGeneration.aspx">isomorph-free exhuastive generation of graphs</a>
@@ -110,9 +110,9 @@
 					<p><b>Aug 2015:</b> <img src="Images/Grand-Prize.png" alt="Grand Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Grand Prize</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2015, <a href="http://news.microsoft.com/features/microsoft-hackathon-2015-winner-extends-onenote-to-improve-learning-outcomes-for-students/">OneNote for Learning</a>, Microsoft Wide.</p>
 					<p><b>Aug 2016:</b> <img src="Images/First-Prize.png" alt="First Prize" style="height: 25px; margin-right: 5px;" /><span style="color: Green">First Prize in Mobile End Points Category</span>, Microsoft <span style="color: red">//oneweek</span> Hackathon 2016, Microsoft Wide.</p>
 					<p><b>May 2006:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, 30<sup>th</sup> Nationwide Mathematics Contest for University Students, Iran.</p>
+					<p><b>May 2005:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, 29<sup>th</sup> Nationwide Mathematics Contest for University Students, Iran.</p>
 					<p><b>Jul 2005:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mention</span>, <a href="http://www.imc-math.org.uk/index.php?year=2005">12<sup>th</sup> International Mathematics Olympiad for University Students</a>, Bulgaria.</p>
 					<p><b>Oct 2010:</b> <img src="Images/Xbox-Small.png" alt="Gaming" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> prize</span> in <a href="http://www.anu-cssa.com/gamecamp/">Microsoft - ANU ImagineCup Game Camp</a>, Australia.</p>
-					<p><b>May 2005:</b> <img src="Images/Medal-Small.png" alt="Medal" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Silver Medal</span>, 29<sup>th</sup> Nationwide Mathematics Contest for University Students, Iran.</p>
 					<p><b>Dec 2004:</b> <img src="Images/Honorable-Mention-Small.png" alt="Honorable Mention" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Honorable Mentioned</span>, 29<sup>th</sup> ACM / International Collegiate Programming Contest, Asian Region, Tehran Site.</p>
 					<p><b>Jun 2007:</b> <img src="Images/Diploma-Small.png" alt="Top Graduate" style="height: 25px; margin-right: 5px;" /><span style="color: Green">1<sup>st</sup> rank</span> of total grade among M.Sc. Students in <b>All Majors</b> of <a href="http://www.aut.ac.ir">Amirkabir University of Technology</a>, Iran.</p>
 					<p><b>Dec 2012:</b> <img src="Images/Presentation.png" alt="Presentation" style="height: 25px; margin-right: 5px;" /><span style="color: Green">Best Student Presentation Award</span>, at the <a href="http://conferences.science.unsw.edu.au/36accmcc/">36<sup>th</sup> Australasian Conference on Combinatorial Math & Combinatorial Computing</a>, Australia.</p>
@@ -210,23 +210,12 @@
 			</div>
 
 			<div class="MyPanel SpecialPanel5">
-				<div><%--Friends &amp; --%>Relevant Links</div>
+				<div>Relevant Links</div>
 				<div>
-					<%--<ul>
-						<li>
-							My wife, <a href="http://www.rajabiyazdi.com">Fateme Rajabiyazdi</a> is a PhD candidate at University of Calgary. Her research is focused on patient-physician communication, personal information, and self-monitoring.
-						</li>
-						<li>
-							<a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a> was my PhD supervisor. He is one of the co-authors of nauty-traces, the fastest isomorphism testing and automorphism computation known algorithm. He is also working extensively of generation of several families of graphs and has some data sets of them on his website.
-						</li>
-						<li>
-							My very good friend <a href="http://caagt.ugent.be/jgoedgeb/">Jan Goedgebeur</a> who is a Postdoctoral Researcher at University of Ghent working on generation of combinatorial structures.
-						</li>
-					</ul>
-					<hr/>--%>
 					<ul>
 						<li><a href="Combinatorics/GraphLab/">Graph Lab</a></li>
 						<li><a href="Combinatorics/GraphGeneration.aspx">Graph Generation</a>, my research field.</li>
+						<li><a href="http://cs.anu.edu.au/~bdm/">Prof. Brendan McKay</a> was my PhD supervisor. He is one of the co-authors of nauty-traces, the fastest isomorphism testing and automorphism computation known algorithm. He is also working extensively of generation of several families of graphs and has some datasets of them on his website.</li>
 						<li><a href="http://cs.anu.edu.au/~bdm/data/">Brendan McKay's Combinatorial Data</a></li>
 						<li><a href="Combinatorics/GraphLibrary.aspx">Gemini Graph Library</a>, a small C# library I wrote for graphs.</li>
 						<li><a href="ComputationalGeometry/RandomSimplePolygonGenerator.aspx">Gemini Random PolygonGenerator</a>, an online random simple polygon generator.</li>
