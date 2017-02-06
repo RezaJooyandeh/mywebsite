@@ -1,0 +1,185 @@
+/* Begin World Map */
+#graticule {
+	fill: none;
+	stroke: #000;
+	stroke-opacity: .5;
+	stroke-width: .5px;
+}
+
+.hidden {
+	display: none;
+}
+
+#map-container svg {
+	display: block;
+	margin: 0 auto;
+}
+
+#map-container div.tooltip {
+	color: #222;
+	background: #fff;
+	padding: .5em;
+	text-shadow: #f5f5f5 0 1px 0;
+	position: relative;
+	width: 100px;
+	opacity: 0.9;
+}
+/* End World Map */
+
+#erdus-graph svg {
+	display: block;
+	margin: 0 auto;
+}
+
+body {
+	color: black;
+	font-size: 15px;
+	background-color: #e8ecf4;
+	font-family: Gisha, Tahoma, Arial, Helvetica,sans-serif;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.bigText {
+	font-size: 16px;
+}
+
+.MyPanel {
+	border: solid 2px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.MyPanel > div:nth-of-type(odd) {
+	padding: 2px 4px 2px 4px;
+	font-size: 1.3em;
+	font-family: Gisha, Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+ .MyPanel > div:nth-of-type(even) {
+	padding: 8px 6px 4px 6px;
+	text-align: justify;
+	line-height: 150%;
+}
+
+ .MyPanel hr {
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+ }
+
+ .MyPanel > div > ul {
+	 margin-left: -20px;
+ }
+
+ .MyPanel ul > li > ul {
+	 margin-left: -20px;
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+ }
+
+.NormalPanel { border-color: #BECFE9; background-color: #EFF3FB; } /* Panel */
+.NormalPanel > div:nth-of-type(odd) { background-color: #BECFE9; }
+.NormalPanel > div:nth-of-type(even) { /*color: #333333;*/ }
+.NormalPanel > table:nth-child(even) tr td { border: 1px solid #BECFE9; padding: 7px; }
+.NormalPanel hr { border-top: 2px solid #BECFE9; }
+
+.SpecialPanel1 { border-color: #EBC3BB; background-color: #F4E8E7;  } /*FS*/
+.SpecialPanel1 > div:nth-of-type(odd) { background-color: #EBC3BB;  }
+.SpecialPanel1 > div:nth-of-type(even) { /*color: #333333;*/ }
+.SpecialPanel1 hr { border-top: 2px solid #F4E8E7; }
+
+.SpecialPanel2 { background-color: #FFF0BB; border-color: #FFCC66; } /*Profile*/
+.SpecialPanel2 > div:nth-of-type(odd) { background-color: #FFCC66; }
+.SpecialPanel2 > div:nth-of-type(even) { /*color: #333333;*/ }
+.SpecialPanel2 hr { border-top: 2px solid #FFCC66; }
+
+.SpecialPanel3 { background-color: #BBF0FF; border-color: #5BB7E5; } /*SharpBox*/
+.SpecialPanel3 > div:nth-of-type(odd) { background-color: #5BB7E5; }
+.SpecialPanel3 > div:nth-of-type(even) { /*color: #333333;*/ }
+.SpecialPanel3 hr { border-top: 2px solid #5BB7E5; }
+
+.SpecialPanel4 { background-color: #ECF4E8; border-color: #CFE9BE; } /*MyMenu*/
+.SpecialPanel4 > div:nth-of-type(odd) { background-color: #CFE9BE; }
+.SpecialPanel4 > div:nth-of-type(even) { /*color: #333333;*/ }
+.SpecialPanel4 hr { border-top: 2px solid #CFE9BE; }
+
+.SpecialPanel5 { background-color: #F4E8EC; border-color: #E9BECF; } /*Special*/
+.SpecialPanel5 > div:nth-of-type(odd) { background-color: #E9BECF; }
+.SpecialPanel5 > div:nth-of-type(even) { /*color: #333333;*/ }
+.SpecialPanel5 hr { border-top: 2px solid #E9BECF; }
+
+.SpecialPanel6 { background-color: #ECE8F4; border-color: #CFBEE9; } /*Calendar*/
+.SpecialPanel6 > div:nth-of-type(odd) { background-color: #CFBEE9; }
+.SpecialPanel6 > div:nth-of-type(even) { /*color: #333333;*/ }
+.SpecialPanel6 hr { border-top: 2px solid #CFBEE9; }
+
+.search-box {
+	font-size: 15px;
+}
+
+.paper-download, .paper-download:hover, .paper-download:active
+{
+	color: Red;
+	font-weight: bold;
+}
+.paper-download:visited
+{
+	color: Teal;
+	font-weight: bold;
+}
+
+.bibtex, .bibtex:hover, .bibtex:visited
+{
+	color: Green;
+	font-weight: bold;
+}
+
+@media (min-width:768px) {
+	.table-if-not-xs {
+		display: inline-table;
+	}
+
+	.table-if-not-xs > div {
+		display: table-cell;
+	}
+}
+
+@media (min-width:768px) {
+	.search-box {
+		float: right;
+		margin-top:-2px;
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-content {
+		padding-left: 10px;
+	}
+	.search-box {
+		margin-left: -5px;
+		margin-bottom: 10px;
+	}
+}
+
+.NoPaddingSpacingTable {
+	border-spacing: 0px;
+}
+
+.NoPaddingSpacingTable > tr > td , .NoPaddingSpacingTable > tr > th, .NoPaddingSpacingTable > thead > tr > td , .NoPaddingSpacingTable > thead > tr > th, .NoPaddingSpacingTable > tbody > tr > td , .NoPaddingSpacingTable > tbody > tr > th {
+	padding: 0px;
+}
+
+.wide, .normalTable
+{
+	width: 100%;
+}
+
+.normalTable tr td
+{
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
