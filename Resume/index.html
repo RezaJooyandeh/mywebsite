@@ -1,0 +1,169 @@
+﻿<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en,fa" />
+	<meta name="author" content="Reza Jooyandeh" />
+	<meta name="copyright" content="2005-2016 Mohammadreza Jooyandeh" />
+	<meta name="keywords" content="Reza,Jooyandeh,Reza Jooyandeh,Mohammadreza,Mohammadreza Jooyandeh,رضا,جوینده,رضا جوینده,محمدرضا,محمدرضا جوینده,Graph Generation,Graph Theory,Microsoft" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link href="../Images/Me-Home.jpg" rel="icon" type="image/png" />
+	<link rel="stylesheet" href="../Styles/Main.css" />
+	<script src="../Scripts/Main.js"></script>
+
+	<meta name="description" content="Reza Jooyandeh's Resume" />
+	<link href="http://jooyandeh.com/Resume.aspx" rel="next" />
+	<title>Reza Jooyandeh - Resume</title>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="https://d3js.org/topojson.v1.min.js"></script>
+	<script src="https://d3js.org/d3.geo.projection.v0.min.js"></script>
+	<script src="https://d3js.org/d3.geo.polyhedron.v0.min.js"></script>
+
+	<script src="../Scripts/WorldMap.js"></script>
+	<script src="../Scripts/GraphSvg.js"></script>
+
+	<style>
+		.persianText {
+			font-family: 'Droid Sans', 'Droid Arabic Naskh', Tahoma, sans-serif;
+		}
+
+		.demo {
+			max-width: 600px;
+			padding: 10px;
+		}
+
+		.educationViz text {
+			font-size: 0.20px;
+		}
+		.educationViz text.smallText {
+			font-size: 0.19px;
+		}
+		.educationViz .axis .labels text tspan {
+			alignment-baseline: middle;
+			font-size: 0.18px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="MyPanel NormalPanel" style="margin-top: 10px;">
+					<div>Education</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1200" height="1200" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+							<g transform="translate(200,0)scale(65)translate(0, 2015.5)" class="educationViz">
+								<path d="M0.03 -2015.5 V -1998" stroke-width="0.06" stroke="black" />
+								<path d="M0 -1998.75 A 0.834 1.958 0 0 1 0 -2002.583" fill="#bbcb5f" fill-opacity="1" opacity="1" />
+								<text transform="translate(0.12, -2000.625)translate(0, -0.35)">
+									<tspan font-weight="bold" alignment-baseline="middle">National Organization for</tspan>
+									<tspan font-weight="bold" x="0" dy="0.35" alignment-baseline="middle">Development of Exceptional Talents</tspan>
+									<tspan x="0" dy="0.35" alignment-baseline="middle">High School (Math &amp; Physics)</tspan>
+								</text>
+
+								<path d="M0 -2002.75 A 0.979 1.958 0 0 1 0 -2006.583" fill="#ed008c" fill-opacity="0.9" opacity="0.9" />
+								<path d="M0 -2002.75 A 1.229 2.458 0 0 1 0 -2007.583" fill="#ed008c" fill-opacity="0.8" opacity="0.8" />
+								<text transform="translate(0.12, -2004.625)translate(0, -0.35)">
+									<tspan font-weight="bold" alignment-baseline="middle">Amirkabir University of Technology</tspan>
+									<tspan x="0" dy="0.35" font-weight="bold" alignment-baseline="middle">BSc. </tspan>
+									<tspan alignment-baseline="middle">Pure Mathematics</tspan>
+									<tspan font-weight="bold" x="0" dy="0.35" alignment-baseline="middle">BSc. </tspan>
+									<tspan alignment-baseline="middle">Computer Science</tspan>
+								</text>
+
+
+								<path d="M0 -2006.75 A 1.6 1.292 0 0 1 0 -2009.25" fill="#fed200" fill-opacity="0.9" opacity="0.8" />
+								<text transform="translate(0.12, -2007.958)translate(0, -0.35)">
+									<tspan font-weight="bold" alignment-baseline="middle">Amirkabir University of Technology</tspan>
+									<tspan x="0" dy="0.35" font-weight="bold" alignment-baseline="middle">MSc. </tspan>
+									<tspan alignment-baseline="middle">Computer Science</tspan>
+								</text>
+
+								<path d="M0 -2010.167 A 2.005 2.292 0 0 1 0 -2014.75" fill="#00adef" fill-opacity="1" opacity="1" />
+								<text transform="translate(0.12, -2012.458)translate(0, -0.75)">
+									<tspan font-weight="bold" alignment-baseline="middle">Australian National University</tspan>
+									<tspan font-weight="bold" x="0" dy="0.3" alignment-baseline="middle">PhD. </tspan>
+									<tspan alignment-baseline="middle">Computer Science</tspan>
+									<tspan x="0" dy="0.3" alignment-baseline="middle">(Computational Graph Theory)</tspan>
+								</text>
+
+								<path d="M0 -2011.916 H -1.9 A 1.375 2.292 0 0 1 -1.95 -2012.166 H 0" fill="white" fill-opacity="0.7" opacity="0.9" />
+								<circle cx="-1.476" cy="-2012.0416" r="0.035" fill="#000000" stroke="none" />
+								<g transform="translate(-2.2, -2012.15) rotate(-90)">
+									<text class="smallText"><tspan alignment-baseline="middle">Visiting Researcher</tspan></text>
+								</g>
+								<g transform="translate(0, -2012.042)">
+									<path d="M-2.2 -0.058 L-2.2 0 H 0.2" stroke="black" stroke-width="0.01px" fill="transparent" />
+									<text class="smallText" transform="translate(0.35, 0)">
+										<tspan alignment-baseline="middle">University of Ghent, Belgium, </tspan>
+										<tspan alignment-baseline="middle">Prof. G. Brinkmann</tspan>
+									</text>
+								</g>
+
+								<path d="M0 -2013.75 H -1.656 A 1.375 2.292 0 0 1 -1.604 -2013.833 H 0" fill="white" fill-opacity="0.7" opacity="0.9" />
+								<g transform="translate(0, -2013.792)">
+									<circle cx="-1.223" cy="0" r="0.035" fill="#000000" stroke="none" />
+									<path d="M-2.2 0.058 L-2.2 0 H 0.2" stroke="black" stroke-width="0.01px" fill="transparent" />
+									<text class="smallText" transform="translate(0.35, 0)">
+										<tspan alignment-baseline="middle">IPM, Iran, </tspan>
+										<tspan alignment-baseline="middle">Prof. G.B. Khosrovshahi</tspan>
+									</text>
+								</g>
+
+								<path d="M0 -2014 H -1.484 A 1.375 2.292 0 0 1 -1.414 -2014.083 H 0" fill="white" fill-opacity="0.7" opacity="0.9" />
+								<g transform="translate(0, -2014.042)">
+									<circle cx="-1.086" cy="0" r="0.035" fill="#000000" stroke="none" />
+									<path d="M-2.2 0.25 L-2.2 0 L-1.086 0 l 0 -0.15 H 0.3" stroke="black" stroke-width="0.01px" fill="transparent" />
+									<text class="smallText" transform="translate(0, -0.15)translate(0.35, 0)">
+										<tspan alignment-baseline="middle">University of Lethbridge, Canada, </tspan>
+										<tspan alignment-baseline="middle">Prof. H. Kharaghani</tspan>
+									</text>
+								</g>
+								<g class="axis" />
+							</g>
+						</svg>
+
+						<script>
+							var educationAxis = d3.select(".educationViz .axis");
+							var axisLines = educationAxis.append("g")
+								.classed("axis-lines", true)
+								.style("stroke", "black")
+								.style("stroke-width", 0.02)
+								.attr("stroke-dasharray", "0.02, 0.04");
+							for (var i = 1999; i <= 2015; i++) {
+								axisLines
+									.append("line")
+									.attr("x1", 0)
+									.attr("y1", -i)
+									.attr("x2", -0.15)
+									.attr("y2", -i);
+							}
+
+
+							educationAxis.append("g").classed("labels", true).selectAll("text")
+								.data([1999, 2002, 2003, 2006, 2007, 2009, 2010, 2015])
+								.enter()
+								.append("text")
+									.attr("transform", d => "translate(0.12, " + -d + ")")
+									.append("tspan")
+										.text(d => d);
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="MyPanel SpecialPanel6" style="margin-top: 10px;">
+					<div>Work Experience</div>
+					<div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
