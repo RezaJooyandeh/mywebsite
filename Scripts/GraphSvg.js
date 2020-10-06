@@ -4,6 +4,8 @@ var GraphSvg = (function () {
     GraphSvg.toSvg = function (elementId, graph, settings) {
         var svgBuilder = [];
         svgBuilder.push("<svg ", "width=\"" + settings.width + "\" ", "height=\"" + settings.height + "\" ", "version=\"1.1\" ", "xmlns=\"http://www.w3.org/2000/svg\" ", "xmlns:xlink=\"http://www.w3.org/1999/xlink\" ", (settings.svgViewBox) ? "viewBox=\"" + settings.svgViewBox + "\" " : "", ">");
+        if (graph.title)
+            svgBuilder.push("<title>" + graph.title + "</title>");
         if (graph.verticesImagesUrl)
             GraphSvg._drawVerticesClipPath(elementId, svgBuilder, graph, settings);
         svgBuilder.push("<g>");

@@ -15,7 +15,7 @@ function highlightContinents() {
 	});
 }
 
-function createMap(mapContainer) {
+function createMap(mapContainer, title) {
 	var width = 380;
 	var height = 380;
 	var shiftx = -40;
@@ -34,6 +34,10 @@ function createMap(mapContainer) {
 	var svg = d3.select(mapContainer).append("svg")
 		.attr("width", width)
 		.attr("height", height);
+	
+	svg
+		.append("title")
+		.text(title);
 
 	//var tooltip = d3.select(mapContainer).append("div").attr("class", "tooltip hidden");
 
